@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px ;
+    height: 100px;
+}
+.header__logo{
+    width: 46px;
+    height:53px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.header__nav a{
+    text-decoration: none ;
+    color: #ff6060;
+    font-size: 1.5rem;
+}

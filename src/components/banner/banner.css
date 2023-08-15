@@ -1,0 +1,17 @@
+.banner{
+    width: 90%;
+    height: 223px;
+    margin: auto;
+    background-image:url(../../images/banner.png);
+    background-blend-mode: darken;
+    background-color:rgba(0,0,0,0.3);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+.banner__title{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 85px;
+    font-weight: 400;
+}

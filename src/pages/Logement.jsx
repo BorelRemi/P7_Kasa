@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Logement() {
-    return<h1>Logement</h1>
+    return<div>
+        <h2>Logement</h2>
+        </div>
 }
 
 export default Logement

@@ -1,12 +1,17 @@
 import React from 'react';
+import logements from '../data/logements.json'
+import Banner from "../components/banner/banner.jsx"
+import HomeLogement from '../components/homeLogement/homeLogement';
 
-import Header from "../components/Header"
 function Home() {
+    console.log(logements)
     return(
         <div>
-        <h1><Header /></h1>
-        <h2> je suis le h2</h2>
+        <Banner/>
+        <HomeLogement/>
         </div>
+       
+
     )
 }
 export default Home;
