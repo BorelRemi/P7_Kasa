@@ -1,13 +1,11 @@
-.HomeLogement{
+.gallery{
     background-color: #f6f6f6;
     width: 90%;
     margin:auto;
-    border:3px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 25px;
     flex-wrap: wrap;
-    gap: 2rem;
     margin-block: 20px;
 
 }

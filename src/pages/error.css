@@ -1,0 +1,25 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap :100px;
+    margin: 100px;
+}
+.error__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.error__description img{
+    width:70% ;
+}
+.error__description p{
+    font-size: 2rem;
+    text-align: center;
+}
+.error__link{
+    color:#ff6060;
+}
