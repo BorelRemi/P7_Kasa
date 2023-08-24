@@ -18,7 +18,11 @@
     gap: 50px;
 }
 .header__nav a{
-    text-decoration: none ;
+    text-decoration: underline ;
     color: #ff6060;
     font-size: 1.5rem;
+    
+}
+.header__nav a:not(.active){
+    text-decoration: none;
 }

@@ -9,7 +9,9 @@ function Gallery(props){
         <div className='gallery'>
             {props.logements.map (logement =>
 
-            <Link to="/Logement/:id"><Card cover={logement.cover} title={logement.title} description={logement.description}/></Link>
+            <Link key={logement.cover} to={`/Logement/${logement.id}`}>
+                <Card cover={logement.cover} title={logement.title} description={logement.description} />
+            </Link>
             )} 
         </div>
     )

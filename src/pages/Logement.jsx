@@ -1,10 +1,10 @@
 import React from 'react';
-import Carrousel from "../components/carrousel.jsx"
+import Carousel from "../components/carousel.jsx"
 
 function Logement() {
     return(
     <div>
-        <Carrousel className="carrousel"/>
+        <Carousel/>
         <div className='Logement'>
             <div className='logement__title'>
             <h2>Titre du logement</h2>

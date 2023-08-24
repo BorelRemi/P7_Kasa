@@ -12,7 +12,7 @@ function Header() {
                 <img src={logo} alt="logo Kasa"/>
             </div>
             <div className='header__nav'>
-            <NavLink to="/">Accueil</NavLink>
+            <NavLink to="/" >Accueil</NavLink>
             <NavLink to="../about">A Propos</NavLink>
             </div> 
         </div>

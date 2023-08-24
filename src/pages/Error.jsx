@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Error404 from "../images/big_404.png";
-import "./error.css";
+import "../css/error.css";
 
 function Error() {
     return (
