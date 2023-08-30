@@ -1,0 +1,129 @@
+.logement{
+    width: 90%;
+    margin: auto;
+}
+.logement__details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logement__title h2{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.logement__title p{
+    font-size: 1rem;
+}
+
+.logement__title ul{
+    display: flex;
+    padding: 0;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.logement__title li{
+    list-style-type: none;
+    border:1px solid #ff6060;
+    min-width: 115px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff6060;
+    padding: 5px;
+    text-align: center;
+}
+
+.logement__host{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20%;
+}
+.logement__host--profil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logement__host--profil p{
+    text-align: right;
+    padding-right: 10px;
+}
+.logement__host--profil img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.stars{
+    font-size: 2rem;
+    text-align: right;
+}
+.star{
+    padding-left: 5px;
+}
+
+.empty__star{
+    color:#e3e3e3;
+}
+.logement__description{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+}
+.collapse__li{
+    list-style-type: none;
+    padding-inline-start: 10px;
+}
+.logement__description>*{
+    width: 45%;
+    margin-inline: 0;
+}
+
+@media screen and (max-width:375px){
+    .logement__details{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .logement__title h2 {
+        font-size: 18px;
+        margin-block: 5px;
+    }
+    .logement__title p{
+        font-size: 14px;
+        margin-block: 5px;
+    }
+    .logement__title li{
+        min-width: 84px;
+        font-size: 10px ;
+
+    }
+    .logement__title ul{
+        flex-wrap: wrap;
+    }
+    .logement__host{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .logement__host--profil img{
+        width: 32px;
+        height: 32px;
+    }
+    .logement__host--profil p{
+        width: 93px;
+        font-size: 12px;
+    }
+    .stars{
+        font-size: 18px;
+    }
+    .logement__description{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .logement__description>*{
+        width: 100%;
+    }
+}

@@ -1,9 +1,10 @@
 import React from "react";
 import '../css/banner.css'
 
-function Banner(){
+function Banner(props){
+    const {background} = props
     return(
-        <div className="banner banner--home">
+        <div className={`banner ${background}`}>
         </div>
     )
 }

@@ -4,14 +4,17 @@
     align-items: center;
     width: 90%;
     margin: auto;
-    margin-top: 5px ;
+    margin-block: 20px;
     height: 100px;
 }
 .header__logo{
-    width: 46px;
-    height:53px;
+    width: 210px;
+    height:68px;
 }
-
+.header__logo img{
+    width: 100%;
+    
+}
 .header__nav{
     display: flex;
     justify-content: space-around;
@@ -20,9 +23,27 @@
 .header__nav a{
     text-decoration: underline ;
     color: #ff6060;
-    font-size: 1.5rem;
+    font-size: 24px;
+    font-weight: 500;
     
 }
 .header__nav a:not(.active){
     text-decoration: none;
+}
+
+@media screen and ( max-width: 375px){
+    .header{
+        height: 47px;
+    }
+    .header__logo{
+        width: 145px;
+        height: 46px;
+    }
+    .header__nav{
+        gap: 15px;
+    }
+    .header__nav a{
+        font-size: 12px;
+        text-transform: uppercase;
+    }
 }

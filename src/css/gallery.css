@@ -3,9 +3,10 @@
     width: 90%;
     margin:auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 25px;
     flex-wrap: wrap;
-    margin-block: 20px;
+    margin-block: 10px;
+    padding-block: 20px;
 
 }

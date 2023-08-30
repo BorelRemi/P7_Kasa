@@ -2,12 +2,10 @@
     width: 340px;
     height: 340px;
     background: linear-gradient(#ffffff 0%, #000000 100%);
-    background-blend-mode: cover;
     border-radius: 10px;
     position: relative;
-    margin: 25px ;
+    margin-block: 30px ;
     overflow: hidden;
-
 }
 .card__title{
     color: white;
@@ -22,4 +20,11 @@
     width: auto;
     height: 100%;
     opacity: 0.7;
+}
+@media screen and ( max-width: 375px){
+    .card{
+        width: 335px;
+        height: 225px;
+        margin-block: 10px;
+    }
 }
