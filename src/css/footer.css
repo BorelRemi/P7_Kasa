@@ -17,7 +17,7 @@
     color: white;
     font-weight: 500;
 }
-@media screen and ( max-width: 375px){
+@media screen and ( max-width: 768px){
     .footer__logo{
         width: 122px;
         height: 40px;

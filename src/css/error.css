@@ -24,7 +24,7 @@
 .error__link{
     color:#ff6060;
 }
-@media screen and ( max-width:375px){
+@media screen and ( max-width:768px){
     .error{
         margin: 100px 0 100px 0;
     }
