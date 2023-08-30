@@ -16,9 +16,13 @@ function Carousel({ images }) {
 
     return (
         <div className="carousel__slide">
-            <button className="arrow left" onClick={goToPrevious}><img src={Arrow_back} alt="bouton précédent"/></button>
+            {images.length > 1 && ( 
+                <button className="arrow left" onClick={goToPrevious}><img src={Arrow_back} alt="bouton précédent"/></button>
+            )}
             <img className="image" src={images[currentIndex]} alt={`logement ${currentIndex + 1}`} />
-            <button className="arrow right" onClick={goToNext}><img src={Arrow_forward} alt="bouton suivant"/></button>
+            {images.length > 1 && ( 
+                <button className="arrow right" onClick={goToNext}><img src={Arrow_forward} alt="bouton suivant"/></button>
+            )}
         </div>
     );
 }
