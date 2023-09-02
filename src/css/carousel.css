@@ -28,7 +28,13 @@
     height: 120px;
     width: 96px;
 }
-
+.pagination{
+    color: white;
+    font-size: 24px;
+    top:90%;
+    left: 50%;
+    position: absolute;
+}
 @media screen and ( max-width: 768px){
     .carousel{
         border-radius: 10px;
@@ -42,5 +48,8 @@
     .arrow img{
         width: 24px;
         height: 24px;
+    }
+    .pagination{
+        display: none;
     }
 }

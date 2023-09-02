@@ -23,6 +23,9 @@ function Carousel({ images }) {
             {images.length > 1 && ( 
                 <button className="arrow right" onClick={goToNext}><img src={Arrow_forward} alt="bouton suivant"/></button>
             )}
+            <div className="pagination">
+                {`${currentIndex + 1}/${images.length}`}
+            </div>
         </div>
     );
 }
